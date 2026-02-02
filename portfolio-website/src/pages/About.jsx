@@ -84,7 +84,7 @@ export default function About() {
           <div className="col-lg-6">
             <div className="about-image-wrapper">
               <div className="about-image glass">
-                <img src="/src/assets/profile1.png" alt="Vishal Chauhan" />
+                <img src="/src/assets/profile.png" alt="Vishal Chauhan" />
               </div>
             </div>
           </div>
