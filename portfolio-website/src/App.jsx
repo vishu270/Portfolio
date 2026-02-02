@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 import './App.css'
 import Navigation from './components/Navigation'
+import ResumeDownload from './components/ResumeDownload'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -47,6 +48,7 @@ function HomePage() {
           <Contact />
         </section>
       </main>
+      <ResumeDownload />
       <Footer />
     </div>
   )
