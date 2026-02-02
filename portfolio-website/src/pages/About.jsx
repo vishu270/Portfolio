@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import '../styles/About.css'
+import profileImg from '../assets/profile1.png'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -84,7 +85,9 @@ export default function About() {
           <div className="col-lg-6">
             <div className="about-image-wrapper">
               <div className="about-image glass">
-                <img src="/src/assets/profile1.png" alt="Vishal Chauhan" />
+                <div className="image-frame">
+                  <img src={profileImg} alt="Vishal Chauhan" />
+                </div>
               </div>
             </div>
           </div>

@@ -72,7 +72,7 @@ export default function Navigation({ scrollToSection, refs }) {
           <div className="social-links">
             <a
               className="social-link"
-              href="https://github.com/"
+              href="https://github.com/vishu270"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -84,7 +84,7 @@ export default function Navigation({ scrollToSection, refs }) {
 
             <a
               className="social-link"
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/vishal-chauhan-71a696313/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"

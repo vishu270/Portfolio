@@ -101,7 +101,7 @@ export default function Home({ scrollToAbout, scrollToProjects, scrollToContact 
             <div className="social-icons-hero" style={{marginTop:"30px"}}>
               <a
                 className="social-icon-btn"
-                href="https://github.com"
+                href="https://github.com/vishu270"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -114,7 +114,7 @@ export default function Home({ scrollToAbout, scrollToProjects, scrollToContact 
               <a
               style={{marginLeft:"15px"}}
                 className="social-icon-btn"
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/vishal-chauhan-71a696313/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -130,52 +130,64 @@ export default function Home({ scrollToAbout, scrollToProjects, scrollToContact 
             <div className="cube-container">
               <div ref={cubeRef} className="cube">
                 <div className="cube-face face-1 profile-face">
-                  <img 
-                    src={profileImage} 
-                    alt="Vishal Chauhan Profile" 
-                    loading="lazy"
-                    decoding="async"
-                  />
+                  <div className="face-inner">
+                    <img 
+                      src={profileImage} 
+                      alt="Vishal Chauhan Profile" 
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
                 </div>
                 <div className="cube-face face-2 profile-face">
-                  <img 
-                    src={profileImage} 
-                    alt="Vishal Chauhan Profile" 
-                    loading="lazy"
-                    decoding="async"
-                  />
+                  <div className="face-inner">
+                    <img 
+                      src={profileImage} 
+                      alt="Vishal Chauhan Profile" 
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
                 </div>
                 <div className="cube-face face-3 profile-face">
-                  <img 
-                    src={profileImage} 
-                    alt="Vishal Chauhan Profile" 
-                    loading="lazy"
-                    decoding="async"
-                  />
+                  <div className="face-inner">
+                    <img 
+                      src={profileImage} 
+                      alt="Vishal Chauhan Profile" 
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
                 </div>
                 <div className="cube-face face-4 profile-face">
-                  <img 
-                    src={profileImage} 
-                    alt="Vishal Chauhan Profile" 
-                    loading="lazy"
-                    decoding="async"
-                  />
+                  <div className="face-inner">
+                    <img 
+                      src={profileImage} 
+                      alt="Vishal Chauhan Profile" 
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
                 </div>
                 <div className="cube-face face-5 profile-face">
-                  <img 
-                    src={profileImage} 
-                    alt="Vishal Chauhan Profile" 
-                    loading="lazy"
-                    decoding="async"
-                  />
+                  <div className="face-inner">
+                    <img 
+                      src={profileImage} 
+                      alt="Vishal Chauhan Profile" 
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
                 </div>
                 <div className="cube-face face-6 profile-face">
-                  <img 
-                    src={profileImage} 
-                    alt="Vishal Chauhan Profile" 
-                    loading="lazy"
-                    decoding="async"
-                  />
+                  <div className="face-inner">
+                    <img 
+                      src={profileImage} 
+                      alt="Vishal Chauhan Profile" 
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

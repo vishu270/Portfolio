@@ -131,8 +131,8 @@
 
 .cube-container {
   perspective: 1000px;
-  width: 300px;
-  height: 300px;
+  width: 420px;
+  height: 420px;
 }
 
 .cube {
@@ -145,8 +145,8 @@
 
 .cube-face {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 250px;
+  height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,29 +168,41 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 30px rgba(102, 126, 234, 0.6), 
-              inset 0 0 30px rgba(102, 126, 234, 0.2);
+  box-shadow: 0 0 30px rgba(102, 126, 234, 0.6),
+    inset 0 0 30px rgba(102, 126, 234, 0.2);
+  border-radius: 20px;
 }
 
-.cube-face.profile-face img {
+/* Inner white frame so images don't touch outer border */
+.face-inner {
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  padding: 8px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.face-inner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 18px;
   display: block;
+  border-radius: 8px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-font-smoothing: antialiased;
-  image-rendering: high-quality;
-  image-rendering: crisp-edges;
 }
 
-.face-1 { transform: translateZ(150px); }
-.face-2 { transform: rotateY(180deg) translateZ(150px); }
-.face-3 { transform: rotateY(90deg) translateZ(150px); }
-.face-4 { transform: rotateY(-90deg) translateZ(150px); }
-.face-5 { transform: rotateX(90deg) translateZ(150px); }
-.face-6 { transform: rotateX(-90deg) translateZ(150px); }
+.face-1 { transform: translateZ(210px); }
+.face-2 { transform: rotateY(180deg) translateZ(210px); }
+.face-3 { transform: rotateY(90deg) translateZ(210px); }
+.face-4 { transform: rotateY(-90deg) translateZ(210px); }
+.face-5 { transform: rotateX(90deg) translateZ(210px); }
+.face-6 { transform: rotateX(-90deg) translateZ(210px); }
 
 /* Scroll Indicator */
 .scroll-indicator {
@@ -296,7 +308,7 @@
                 inset 0 0 20px rgba(102, 126, 234, 0.15);
   }
 }
-  }
+
 
   .cube-container {
     width: 200px;
@@ -313,7 +325,7 @@
   .face-4 { transform: rotateY(-90deg) translateZ(100px); }
   .face-5 { transform: rotateX(90deg) translateZ(100px); }
   .face-6 { transform: rotateX(-90deg) translateZ(100px); }
-}
+
 
 /* Social Icons in Hero */
 .social-icons-hero {
