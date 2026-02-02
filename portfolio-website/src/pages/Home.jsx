@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import '../styles/Home.css'
+import profileImage from '../assets/profile1.png'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -130,7 +131,7 @@ export default function Home({ scrollToAbout, scrollToProjects, scrollToContact 
               <div ref={cubeRef} className="cube">
                 <div className="cube-face face-1 profile-face">
                   <img 
-                    src="/src/assets/profile1.png" 
+                    src={profileImage} 
                     alt="Vishal Chauhan Profile" 
                     loading="lazy"
                     decoding="async"
@@ -138,7 +139,7 @@ export default function Home({ scrollToAbout, scrollToProjects, scrollToContact 
                 </div>
                 <div className="cube-face face-2 profile-face">
                   <img 
-                    src="/src/assets/profile1.png" 
+                    src={profileImage} 
                     alt="Vishal Chauhan Profile" 
                     loading="lazy"
                     decoding="async"
@@ -146,7 +147,7 @@ export default function Home({ scrollToAbout, scrollToProjects, scrollToContact 
                 </div>
                 <div className="cube-face face-3 profile-face">
                   <img 
-                    src="/src/assets/profile1.png" 
+                    src={profileImage} 
                     alt="Vishal Chauhan Profile" 
                     loading="lazy"
                     decoding="async"
@@ -154,7 +155,7 @@ export default function Home({ scrollToAbout, scrollToProjects, scrollToContact 
                 </div>
                 <div className="cube-face face-4 profile-face">
                   <img 
-                    src="/src/assets/profile1.png" 
+                    src={profileImage} 
                     alt="Vishal Chauhan Profile" 
                     loading="lazy"
                     decoding="async"
@@ -162,7 +163,7 @@ export default function Home({ scrollToAbout, scrollToProjects, scrollToContact 
                 </div>
                 <div className="cube-face face-5 profile-face">
                   <img 
-                    src="/src/assets/profile1.png" 
+                    src={profileImage} 
                     alt="Vishal Chauhan Profile" 
                     loading="lazy"
                     decoding="async"
@@ -170,7 +171,7 @@ export default function Home({ scrollToAbout, scrollToProjects, scrollToContact 
                 </div>
                 <div className="cube-face face-6 profile-face">
                   <img 
-                    src="/src/assets/profile1.png" 
+                    src={profileImage} 
                     alt="Vishal Chauhan Profile" 
                     loading="lazy"
                     decoding="async"
