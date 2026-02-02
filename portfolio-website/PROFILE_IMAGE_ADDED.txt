@@ -1,0 +1,104 @@
+✅ 3D CUBE - PROFILE IMAGE FACE ADDED!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ WHAT WAS ADDED:
+
+✅ Profile image on first cube face (replaces "React" text)
+✅ Image centered and covers entire face (object-fit: cover)
+✅ Soft neon blue/purple glow around edges
+✅ Rounded corners on image (18px border-radius)
+✅ Responsive sizing on smaller screens
+✅ High-quality image rendering on retina displays
+✅ Lazy loading for efficient performance
+✅ Rotation animation unchanged
+✅ Cube size and position unchanged
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 CHANGES MADE:
+
+1. src/pages/Home.jsx
+   - Replaced face-1 content with <img> tag
+   - Added loading="lazy" for performance
+   - Added decoding="async" for smooth rendering
+   - Image has alt text for accessibility
+
+2. src/styles/Home.css
+   - Added .profile-face class styling
+   - Added object-fit: cover to display image properly
+   - Added box-shadow with dual glow effect:
+     * Outer glow: 0 0 30px rgba(102, 126, 234, 0.6)
+     * Inner glow: inset 0 0 30px rgba(102, 126, 234, 0.2)
+   - Added image-rendering: high-quality
+   - Added backface-visibility optimization
+   - Added responsive styling for mobile
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎨 VISUAL FEATURES:
+
+✓ Profile image on rotating cube face
+✓ Neon blue/purple glow effect
+✓ Soft rounded corners (18px)
+✓ Image fills entire face without distortion
+✓ Sharp rendering on high-DPI screens
+✓ Smooth animation continues
+✓ Responsive on all screen sizes
+✓ Mobile: Glow reduced slightly for performance
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📦 CUBE FACES NOW:
+
+Face 1 (Front):  ✨ Your Profile Image with Glow
+Face 2 (Back):   JavaScript
+Face 3 (Right):  MongoDB
+Face 4 (Left):   Node.js
+Face 5 (Top):    Express
+Face 6 (Bottom): C
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 TO USE YOUR ACTUAL IMAGE:
+
+Replace the image URL in src/pages/Home.jsx:
+
+Current (placeholder):
+  src="https://via.placeholder.com/300x300/667eea/ffffff?text=Vishal+Chauhan"
+
+Replace with your image URL or local path:
+  src="/assets/profile.jpg"
+  or
+  src="your-image-url-here"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ PERFORMANCE OPTIMIZATIONS:
+
+✓ Lazy loading enabled (loads only when needed)
+✓ Async decoding for smooth rendering
+✓ High-quality image rendering
+✓ Backface visibility hidden (GPU optimization)
+✓ Efficient CSS transforms
+✓ Responsive sizing reduces file load
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 HOW TO TEST:
+
+1. Run: npm run dev
+2. Go to Home page
+3. Rotate cube to see your profile image
+4. See the soft blue/purple glow around edges
+5. Hover over cube to see parallax effect
+6. Resize browser to test responsiveness
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💾 READY TO DEPLOY!
+
+The cube now displays your profile image with professional styling.
+Just replace the placeholder URL with your actual image. ✨
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
